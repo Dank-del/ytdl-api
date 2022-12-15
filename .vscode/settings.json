@@ -1,0 +1,8 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "cSpell.words": [
+        "fastapi",
+        "pydantic",
+        "uvicorn"
+    ]
+}

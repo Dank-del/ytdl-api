@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ytdl-api"
+version = "0.1.0"
+description = "An API around YT-Dlp"
+authors = ["Sayan Biswas <sayan@asia.com>"]
+readme = "README.md"
+packages = [{include = "ytdl_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.88.0"
+yt-dlp = "^2022.11.11"
+pydantic = "^1.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
